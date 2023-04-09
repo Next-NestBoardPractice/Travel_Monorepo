@@ -1,0 +1,25 @@
+{
+  "name": "@pnds/component",
+  "packageManager": "yarn@3.5.0",
+  "main": "dist/index",
+  "types": "dist/index",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "yarn clean && yarn compile",
+    "clean": "rimraf -rf ./dist",
+    "compile": "tsc"
+  },
+  "devDependencies": {
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/rimraf": "^3",
+    "rimraf": "^4.4.1",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

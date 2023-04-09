@@ -1,0 +1,20 @@
+{
+  "name": "travel_mono",
+  "packageManager": "yarn@3.5.0",
+  "private": true,
+  "scripts": {
+    "component": "yarn workspace @pnds/component",
+    "nestapp": "yarn workspace travel-nest-app",
+    "nextapp": "yarn workspace travel-next-app"
+  },
+  "workspaces": [
+    "packages/*/*",
+    "packages/libs/frontend/*",
+    "packages/libs/backend/*"
+  ],
+  "devDependencies": {
+    "@types/prettier": "^2",
+    "prettier": "^2.8.7",
+    "typescript": "^5.0.4"
+  }
+}

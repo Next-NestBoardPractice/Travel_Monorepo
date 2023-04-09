@@ -1,0 +1,15 @@
+//
+// packages/libs/frontend/components/tsconfig.json
+//
+{
+  "extends": "../../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "src",
+    "baseUrl": "./",
+    "composite": true,
+    "jsx": "react-jsx",
+  },
+
+  "include": ["src/**/*"]
+}

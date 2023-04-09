@@ -1,0 +1,16 @@
+//
+// tsconfig.base.json
+//
+{
+  "extends": "./tsconfig.spec.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@pnds/common": ["packages/libs/common/src"]
+    }
+  },
+  "files": [],
+  "references": [
+    {"path": "./packages/libs/common"},
+  ]
+}
