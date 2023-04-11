@@ -6,7 +6,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@pnds/common": ["packages/libs/common/src"]
+      "@travel/common": ["packages/libs/common/src"]
     }
   },
   "files": [],

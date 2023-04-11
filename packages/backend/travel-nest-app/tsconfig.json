@@ -10,7 +10,7 @@
     "sourceMap": true,
     "outDir": "./dist",
     "paths": {
-      "@pnds/common": ["../../libs/common/src"]
+      "@travel/common": ["../../libs/common/src"]
     },
     "baseUrl": "./",
     "incremental": true,

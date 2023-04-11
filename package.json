@@ -3,7 +3,7 @@
   "packageManager": "yarn@3.5.0",
   "private": true,
   "scripts": {
-    "component": "yarn workspace @pnds/component",
+    "component": "yarn workspace @travel/component",
     "nestapp": "yarn workspace travel-nest-app",
     "nextapp": "yarn workspace travel-next-app"
   },

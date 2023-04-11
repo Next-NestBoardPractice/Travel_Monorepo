@@ -114,6 +114,6 @@ const styles = StyleSheet.create({
     fontWeight: '700',
   },
 });
-import {hello} from "@pnds/common";
+import {hello} from "@travel/common";
 console.log(">>>>>", hello());
 export default App;

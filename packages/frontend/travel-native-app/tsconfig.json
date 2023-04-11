@@ -11,7 +11,7 @@
 
     // 항목 추가
     "paths": {
-      "@pnds/common": ["../../libs/common/src"]
+      "@travel/common": ["../../libs/common/src"]
     }
   }
 }

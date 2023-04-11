@@ -16,7 +16,7 @@
     "incremental": true,
     "paths": {
       "@/*": ["./src/*"],
-      "@pnds/common": ["../../libs/common/src"]
+      "@travel/common": ["../../libs/common/src"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],

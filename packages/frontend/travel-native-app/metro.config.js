@@ -7,7 +7,7 @@
 
 const path = require('path');
 const extraNodeModules = {
-  '@pnds/common': path.resolve(__dirname, '../../libs/common'),
+  '@travel/common': path.resolve(__dirname, '../../libs/common'),
 };
 const watchFolders = [path.resolve(__dirname, '../../libs/common')];
 

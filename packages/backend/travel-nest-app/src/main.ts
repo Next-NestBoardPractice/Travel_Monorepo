@@ -6,8 +6,8 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule);
 
   const config = new DocumentBuilder()
-    .setTitle('게시판 스웨거')
-    .setDescription('게시판 API 명세서')
+    .setTitle('여행, 대만족')
+    .setDescription('여행, 대만족 API 명세서 ')
     .setVersion('1.0')
     .addTag('boards')
     .build();
